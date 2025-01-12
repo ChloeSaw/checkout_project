@@ -1,0 +1,131 @@
+.titlebar {
+  padding: 10px;
+  background-color: #43281C;
+  text-align: center;
+  color: #FBF2C0;
+  width: 100%;
+
+
+}
+
+.page {
+  background-color: #eeefef;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "items payment"
+    "total total";
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.items {
+  grid-area: "items";
+  padding: 10px;
+  margin-left: 8px;
+  background-color: #ede0d4;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.customer-details {
+  grid-area: "customer-details";
+  padding: 10px;
+  background-color: #ede0d4;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.payment {
+  grid-area: "payment";
+  padding: 10px;
+  background-color: #ede0d4;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.total {
+  grid-area: "total";
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #ddb892;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+.input-group {
+  position: relative;
+  display: inline-block;
+}
+
+.input-label {
+  background-color: #ede0d4;
+  position: absolute;
+  color: #aa8868;
+  left: 15px;
+  top: -5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.user-input {
+  border-color: #aa8868;
+  border-radius: 10px;
+  height: 50px;
+  width: 600px;
+  background-color: #ede0d4;
+
+}
+
+.h2 {
+  color: #aa8868;
+  text-align: start;
+}
+
+.quantity {
+  color: black;
+  text-align: left;
+}
+
+.item-name {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.item-adjustments {
+  color: #ddb892;
+  font-weight: lighter;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+  text-align: right;
+}
+
+ul{
+  list-style-type: none;
+}
+
+hr{
+  color: #aa8868 ;
+ 
+
+}
